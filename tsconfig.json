@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "lib": ["es2020"],
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "plugins": [
+      { "transform": "typescript-is/lib/transform-inline/transformer" }
+    ],
+    "types": [
+      "node",
+      "jest"
+    ]
+  },
+  "exclude": ["node_modules", "**/*.test.*"]
+}
