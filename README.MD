@@ -2,10 +2,10 @@
 
 A boilerplate for developing serverless applications with typescript and terraform.
 
-✅ [`webpack`](https://webpack.js.org/) to compile deployment packages.
-✅ [`jest`](https://jestjs.io/) and for testing
-✅ [`typescript-is`](https://github.com/woutervh-/typescript-is) to validate event input
-✅ Minimal [terraform](terraform.io) configuration to manage deployment.
+- ✅ [`webpack`](https://webpack.js.org/) to compile deployment packages.
+- ✅ [`jest`](https://jestjs.io/) and for testing
+- ✅ [`typescript-is`](https://github.com/woutervh-/typescript-is) to validate event input
+- ✅ Minimal [terraform](terraform.io) configuration to manage deployment.
 
 ### Prerequisites:
 
@@ -40,6 +40,6 @@ Every lambda function should have an accompanying test file in `lambda-fns/__tes
 
 ### Give feedback or make suggestions
 
-If you have suggestions for what can be improved, please open an issue.
+If you have suggestions for what can be improved, [please open an issue](https://github.com/juliankrispel/typescript-aws-lambda-terraform/issues/new)
 
-Made by [Julian](https://jkrsp.com/)
+Made by [Julian](https://jkrsp.com/), [follow me on twitter](https://twitter.com/juliandoesstuff)
