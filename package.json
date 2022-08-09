@@ -7,7 +7,8 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "plan": "npm run build && terraform plan",
-    "deploy": "npm run build && terraform deploy",
+    "apply": "npm run build && terraform apply",
+    "destroy": "npm run build && terraform destroy",
     "test:watch": "jest --watch",
     "test": "jest"
   },
