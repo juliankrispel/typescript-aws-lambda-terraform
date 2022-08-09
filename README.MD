@@ -20,7 +20,7 @@ I believe both can be installed via brew (`brew install terraform aws)
 - `npm run test` - Runs all tests
 - `npm run test:watch` - Rerun tests when files change
 - `npm run plan` - Display terraform deployment plan. Shows you what AWS resources will be created.
-- `npm run deploy` - Deploys project to aws with terraform
+- `npm run apply` - Deploys project to aws with terraform
 - `npm run destroy` - Tear down project on aws with terraform
 
 
